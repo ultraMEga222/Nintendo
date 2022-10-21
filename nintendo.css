@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body.pp {
+  background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700827939.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.Empresa {
+  margin: auto;
+  display: table;
+}
+.logo {
+  margin: auto;
+  margin-top: -4%;
+  display: table;
+}
+
+@keyframes slidein {
+  0% { transform: translateX(100%) }
+  100% { transform: translateX(0%) }
+}
+@keyframes slideleft {
+  0% { transform: translateX(-100%) }
+  100% { transform: translateX(0%) }
+}
+@keyframes appear {
+    from {opacity: 0%;}
+    to {opacity: 100%}
+}
+
+
+.history {
+  text-align: center;
+  margin-top: 1%;
+  animation-name: appear;
+  animation-duration: 3s;
+}
+.history a {
+  font-size: 250%;
+  font-family: 'Oswald';
+}
+
+.Texto1 {
+  margin-top: -4%;
+  background-color: aquamarine;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  animation-name: slidein;
+  animation-duration: 2s;
+
+}
+.Texto2 {
+  background-color: aquamarine;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+  animation-name: slideleft;
+  animation-duration: 2s;
+
+}
+
+table.tablita {
+  border-style: inset;
+  border-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.tablita td {
+  text-align: center;
+  background-color: powderblue;
+  transition: .5s;
+}
+.tablita td:hover {
+  background-color: white;
+}
+.tablita a:hover {
+  color: red;
+}

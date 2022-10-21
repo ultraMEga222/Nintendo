@@ -1,0 +1,22 @@
+
+<html>
+<head><title>Pagina de inicio</title>
+<table width=85% align=center border=2 borderradius=20px bordercolor="#dd0000" bgcolor="#ee7777">
+<tr>
+<td><a href="PaginaInicio.html"><i>Página de inicio.</i></a></td>
+<td><a href="HistoriaEmpresa.html"><i>Historia de la empresa.</i></a></td>
+<td><a href="EvolucionConsolas.html"><i>Evolución de las consolas.</i></a></td>
+<td><a href="SagasFamosas.html"><i>Sagas famosas.</i></a></td>
+<td><a href="Clasificacionpersonaljuegos.html"><i>Clasificación personal de otros juegos.</i></a></td>
+<td><a href="NintendoDirect.html"><i>Nintendo direct.</i></a></td>
+<td><a href="Formulario.html"><i>Formulario.</i></a></td>
+</tr>
+</table>
+</head>
+<body bgcolor="#ff0000">
+<div align="center"><h1>BIENVENIDO A NUESTRA PÁGINA DE <img src="IconoNintendo.png" width="160" align="center"></h1></div>
+<ol>
+En esta página vamos a hablar sobre Nintendo, una de las empresas de videojuegos más famosas hasta la fecha.
+
+</body>
+</html>
